@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+  background-color: #101A34;
+  font-family: "Inter", serif;
+  color: white;
+  background-image: url('./assets/pexels-jplenio-1118873.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} 
+
+.weather-forecast{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.weather-app{
+  display: flex;
+  flex-direction: column;
+  width:500px ;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.search-section{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.search-section input{
+  width: 400px;
+  height: 30px;
+  font-size: 16px;
+  border-radius:10px ;
+  border: 1px solid #ccc;
+  background-color: #767E87;
+  padding-left: 15px;
+  color: white;
+  font-weight: 600;
+}
+::placeholder{
+  color: white;
+  font-weight:300;
+}
+
+.btn-search{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+h1{
+  color: white;
+}
+.weather-information{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.icon{
+  width: 161px;
+  height: 162px;
+}
+
+.temperature p{
+  font: 64px;
+}
+.temperature h1{
+  
+ font-size:50px ;
+}
+
+
+.todays-forecast-header{
+  font-size: 12px;
+}
+
+.todays-forecast, .air-condtion{
+  width: 490px;
+  padding: 47px;
+  background-color: #767E87;
+  border-radius: 24px;
+  height: 210px;
+  
+}
+.forecast-container{
+  width: 100%;
+  display: flex;
+
+}
+
+.weekly-forecast{
+  display: flex;
+  flex-direction: column;
+}
+
