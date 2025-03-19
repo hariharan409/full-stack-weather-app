@@ -1,4 +1,5 @@
-const apiKey = '9d07f9e78b6f9c732bcc49d154d8f5d7';
+// dont commit the apikey's into the public repository
+const apiKey = ''; // move this to .env and dont commit the config file
 
 const getWeather = async (cityName) => {
     const baseUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${apiKey}&units=metric`;
